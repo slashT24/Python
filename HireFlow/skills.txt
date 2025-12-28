@@ -1,0 +1,13 @@
+Python
+Java
+SQL
+AWS
+Docker
+Machine Learning
+ML
+JavaScript
+React
+HTML
+CSS
+R
+Tableau
