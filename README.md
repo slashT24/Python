@@ -1,19 +1,31 @@
-🚀 Features
+# 📄 HireFlow- Resume Screening AI (Python)
 
-📑 Reads multiple PDF resumes
-🤖 Uses TF-IDF + Cosine Similarity for match scoring
-🧠 Extracts skills using robust fuzzy matching
-Handles short skills (Java, SQL, AWS, ML)
-Handles long skills (Machine Learning, Data Analysis)
-Works even with PDF line breaks
-📊 Ranks resumes by relevance
-📁 Exports results to CSV
-🖥️ Console-based
+An AI-based Resume Screening system built using Python that automatically ranks resumes against a job description and identifies matched and missing skills.
 
-🛠️ Tech Stack
+This project demonstrates practical usage of NLP techniques like TF-IDF, cosine similarity, and fuzzy matching for real-world HR tech applications.
 
-Python 3
-scikit-learn (TF-IDF & similarity)
-PyPDF2 (PDF parsing)
-fuzzywuzzy (+ python-Levenshtein for speed)
-Regex
+---
+
+## 🚀 Features
+
+- Reads multiple PDF resumes
+- Calculates resume–job match score using TF-IDF & cosine similarity
+- Extracts skills accurately from resumes
+- Handles:
+  - Short skills (Java, SQL, AWS, ML)
+  - Long skills (Machine Learning, Data Analysis)
+  - PDF line breaks and formatting issues
+- Ranks resumes based on relevance
+- Exports results to CSV
+- Console-based (easy to extend to web apps)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3
+- scikit-learn
+- PyPDF2
+- fuzzywuzzy
+- Regular Expressions
+
