@@ -21,10 +21,11 @@ with open(skills_path, "r", encoding="utf-8") as f:
 job_clean_for_tfidf = clean_text(job_text)
 job_clean_for_skills = clean_text_for_skills(job_text)
 
-print(job_clean_for_tfidf)
-print('-----------------------')
-print(job_clean_for_skills)
-print('-----------------------')
+# print(job_clean_for_tfidf)
+# print('-----------------------')
+# print(job_clean_for_skills)
+# print('-----------------------')
+
 # --- Store results ---
 resume_results = []
 
@@ -38,9 +39,9 @@ for resume_file in os.listdir(resume_folder):
         resume_clean_tfidf = clean_text(resume_text)
         resume_clean_skills = clean_text_for_skills(resume_text)
 
-        print(resume_clean_tfidf)
-        print('-----------------------')
-        print(resume_clean_skills)
+        # print(resume_clean_tfidf)
+        # print('-----------------------')
+        # print(resume_clean_skills)
         
         # --- Calculate match score ---
         score = calculate_match(resume_clean_tfidf, job_clean_for_tfidf)
